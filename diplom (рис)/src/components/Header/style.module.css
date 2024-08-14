@@ -1,0 +1,25 @@
+.container {
+  max-width: 1180px;
+  margin-right: auto;
+  margin-left: auto;
+  z-index: 3;
+}
+
+header {
+  width: 1920px;
+  height: 528px;
+  background-color: #484283;
+  position: relative;
+  z-index: 1;
+}
+
+header::before {
+  position: absolute;
+  content: "SneakMax";
+  z-index: -1;
+  width: 980px;
+  height: 200px;
+  right: 515px;
+  bottom: 240px;
+  background: rgb(197, 188, 188);
+}
