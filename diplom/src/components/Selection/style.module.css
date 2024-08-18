@@ -1,0 +1,73 @@
+.container_selection {
+  width: 1180px;
+  height: 658px;
+  border-radius: 4px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #fff4ee;
+}
+
+.sel_h2 {
+  width: 561px;
+  height: 30px;
+  padding-left: 100px;
+  padding-top: 40px;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 30px;
+}
+
+.sel_p {
+  width: 780px;
+  height: 16px;
+  padding-left: 100px;
+  padding-top: 20px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 16px;
+  position: relative;
+}
+
+.sel_p::before {
+  position: absolute;
+  content: "";
+  border: 1px solid #808080;
+  width: 980px;
+  left: 100px;
+  top: 45px;
+}
+
+.sel_h3 {
+  width: 447px;
+  height: 24px;
+  padding-left: 100px;
+  padding-top: 30px;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 24px;
+}
+
+.sel_item {
+  display: grid;
+  grid-template-columns: 280px 280px 280px;
+  grid-template-rows: 120px 120px;
+  gap: 70px;
+  padding-left: 100px;
+  position: relative;
+}
+
+.sel_item::before {
+  position: absolute;
+  content: "";
+  border: 1px solid #808080;
+  width: 980px;
+  left: 100px;
+  top: 350px;
+}
+
+.sel_btn {
+  width: 211px;
+  height: 50px;
+  margin-top: 60px;
+  margin-left: 869px;
+}

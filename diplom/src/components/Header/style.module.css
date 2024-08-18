@@ -1,0 +1,96 @@
+.container {
+  max-width: 1180px;
+  margin-right: auto;
+  margin-left: auto;
+  color: red;
+  z-index: 3;
+}
+
+.container nav {
+  display: flex;
+  justify-content: space-between;
+}
+.nav_list {
+  padding-top: 27px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+}
+
+.nav_list::before {
+  position: absolute;
+  content: "";
+  border: 1px solid #ffffff;
+  width: 1180px;
+  top: 64px;
+  left: 570px;
+}
+
+.container ul :not(:last-child) {
+  margin-right: 40px;
+}
+
+header {
+  height: 528px;
+  background-color: #484283;
+  position: relative;
+  z-index: 1;
+}
+
+header::before {
+  position: absolute;
+  content: "SneakMax";
+  font-size: 200px;
+  font-weight: 700;
+  line-height: 200px;
+  color: #ffffff1f;
+  z-index: -1;
+  width: 980px;
+  height: 200px;
+  right: 615px;
+  bottom: 80px;
+}
+
+.logo {
+  width: 145px;
+  height: 24px;
+  padding-top: 27px;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 30px;
+  color: #ffffff;
+}
+
+.container h1 {
+  width: 580px;
+  height: 100px;
+  padding-top: 100px;
+  left: 370px;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 50.4px;
+}
+
+.container .nav_title1 {
+  width: 480px;
+  height: 44px;
+  padding-top: 20px;
+  left: 370px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22.4px;
+}
+
+.container button {
+  width: 250px;
+  height: 60px;
+  top: 368px;
+  left: 370px;
+  padding: 22px 47px;
+  background-color: #f14f4f;
+  color: white;
+  gap: 10px;
+  border-radius: 4px;
+  opacity: 0px;
+}

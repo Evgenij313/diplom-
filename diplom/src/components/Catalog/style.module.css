@@ -1,0 +1,35 @@
+.container_catalog {
+  width: 1180px;
+  height: 1257px;
+  margin: auto;
+}
+
+.filters {
+  width: 280px;
+  height: 597px;
+  background-color: gray;
+}
+
+.catalog {
+  display: grid;
+  grid-template-columns: 280px auto;
+  gap: 20px;
+}
+
+.product_li1 {
+  display: grid;
+  grid-template-columns: 280px 280px 280px;
+  grid-template-rows: 349px 349px 349px;
+  gap: 20px;
+}
+
+.btn_red {
+  width: 200px;
+  height: 60px;
+  padding-top: 1785px;
+  padding-left: 999px;
+  padding: 22px 47px;
+  gap: 10px;
+  border-radius: 4px 0px 0px 0px;
+  opacity: 0px;
+}

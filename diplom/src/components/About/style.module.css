@@ -1,0 +1,46 @@
+.container_about {
+  display: flex;
+  max-width: 1920px;
+  height: 580px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #484283;
+}
+
+.abo1 {
+  width: 380px;
+  height: 110px;
+  padding-left: 374px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22.4px;
+  position: relative;
+}
+
+.container_about h2 {
+  width: 233px;
+  height: 30px;
+  padding-top: 272px;
+  padding-left: 374px;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 30px;
+  color: white;
+}
+
+.abo1::before {
+  position: absolute;
+  content: "SneakMax";
+  width: 97px;
+  height: 20px;
+  padding-top: 120px;
+  padding-left: 320px;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 20px;
+  color: white;
+}
+
+.foto_abo {
+  padding-left: 120px;
+}

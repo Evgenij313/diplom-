@@ -1,0 +1,62 @@
+.container_map {
+  display: flex;
+  max-width: 1920px;
+  height: 618px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #f3f6f6;
+}
+
+.map_h2 {
+  width: 140px;
+  height: 29.84px;
+  padding-left: 370px;
+  padding-top: 60.79px;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 30px;
+}
+
+.map_tel {
+  width: 243px;
+  height: 41.78px;
+  padding-left: 370px;
+  padding-top: 39.79px;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 42px;
+}
+
+.map_adr {
+  width: 362px;
+  height: 24.87px;
+  padding-left: 370px;
+  padding-top: 9.95px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 25.2px;
+  color: #444b58;
+}
+
+.map_span {
+  width: 127px;
+  height: 19.9px;
+  padding-left: 370px;
+  padding-top: 39.79px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19.6px;
+  color: #b2b5bb;
+}
+
+.map_set {
+  padding-left: 370px;
+}
+
+.map {
+  width: 680px;
+  height: 497.41px;
+  margin-top: 60.79px;
+  margin-left: 150px;
+  background-color: blue;
+}

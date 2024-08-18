@@ -1,0 +1,38 @@
+footer {
+  max-width: 1920px;
+  margin-right: auto;
+  margin-left: auto;
+  background-color: red;
+}
+
+.container {
+  display: flex;
+  height: 80px;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+}
+
+.footer_item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  padding-right: 370px;
+}
+
+.footer_item :not(:last-child) {
+  margin-right: 40px;
+}
+
+.logo {
+  width: 145px;
+  height: 24px;
+  padding-left: 370px;
+  padding-top: 28px;
+  padding-bottom: 28px;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 30px;
+  color: #ffffff;
+}
